@@ -79,14 +79,14 @@ LOGGING['loggers']['management'] = {
 
 # Django RQ
 # https://github.com/rq/django-rq
-LOGGING['handlers']['rq_console'] = {
-    'class': 'rq.utils.ColorizingStreamHandler',
-    'exclude': ('%(levelname)s', '%(asctime)s'),
-    'filters': ['require_debug_true'],
-    'formatter': 'simple',
-    'level': 'DEBUG',
-}
-LOGGING['loggers']['rq.worker'] = {
-    'handlers': ['rq_console'],
-    'level': 'WARNING'
-}
+# LOGGING['handlers']['rq_console'] = {
+#     'class': 'rq.utils.ColorizingStreamHandler',
+#     'exclude': ('%(levelname)s', '%(asctime)s'),
+#     'filters': ['require_debug_true'],
+#     'formatter': 'simple',
+#     'level': 'DEBUG',
+# }
+# LOGGING['loggers']['rq.worker'] = {
+#     'handlers': ['rq_console'],
+#     'level': 'WARNING'
+# }

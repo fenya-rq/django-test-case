@@ -6,6 +6,5 @@ django-rq
 django>=3.2,<4
 djangorestframework
 drf-extensions
-
 pillow
 psycopg2-binary
