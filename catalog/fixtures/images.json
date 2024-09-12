@@ -1,0 +1,42 @@
+[
+  {
+    "model": "catalog.images",
+    "pk": 1,
+    "fields": {
+      "good": 1,
+      "file": "image1.jpg",
+      "sign": "test sign",
+      "sort_order": "ASC"
+    }
+  },
+  {
+    "model": "catalog.images",
+    "pk": 2,
+    "fields": {
+      "good": 1,
+      "file": "image2.jpg",
+      "sign": "test sign",
+      "sort_order": "ASC"
+    }
+  },
+  {
+    "model": "catalog.images",
+    "pk": 3,
+    "fields": {
+      "good": 2,
+      "file": "image3.jpg",
+      "sign": "test sign",
+      "sort_order": "ASC"
+    }
+  },
+  {
+    "model": "catalog.images",
+    "pk": 4,
+    "fields": {
+      "good": 2,
+      "file": "image4.jpg",
+      "sign": "test sign",
+      "sort_order": "ASC"
+    }
+  }
+]

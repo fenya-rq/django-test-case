@@ -12,6 +12,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.idea/
 env/
 venv/
 build/
@@ -67,6 +68,7 @@ media/*
 !media/uploads
 media/uploads/*
 settings/local.py
+.env
 
 # +----------------------------+
 # |    Keep .gitkeep files     |

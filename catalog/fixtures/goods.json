@@ -1,0 +1,22 @@
+[
+  {
+    "model": "catalog.goods",
+    "pk": 1,
+    "fields": {
+      "name": "Стол",
+      "info": "Деревянный стол для учебы",
+      "base_cost": "700.00",
+      "sort_order": "ASC"
+    }
+  },
+  {
+    "model": "catalog.goods",
+    "pk": 2,
+    "fields": {
+      "name": "Стул",
+      "info": "Деревянный стул для учебы",
+      "base_cost": "400.00",
+      "sort_order": "ASC"
+    }
+  }
+]

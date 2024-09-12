@@ -10,6 +10,8 @@ from django.views.generic import TemplateView
 from filebrowser.sites import site as fb_site
 from rest_framework.authtoken import views as rest_token_views
 
+from catalog.routers import router
+
 admin.autodiscover()
 
 urlpatterns = [
@@ -31,6 +33,8 @@ urlpatterns = [
          include([
              path('token/', rest_token_views.obtain_auth_token),
          ])),
+
+    path('api/v1/', include(router.urls))
 ]
 
 urlpatterns += staticfiles_urlpatterns()

@@ -1,0 +1,46 @@
+[
+  {
+    "model": "catalog.parameters",
+    "pk": 1,
+    "fields": {
+      "good": 1,
+      "name": "Color",
+      "value": "Red",
+      "cost": "100.00",
+      "sort_order": "ASC"
+    }
+  },
+  {
+    "model": "catalog.parameters",
+    "pk": 2,
+    "fields": {
+      "good": 1,
+      "name": "Color",
+      "value": "Blue",
+      "cost": "200.00",
+      "sort_order": "ASC"
+    }
+  },
+  {
+    "model": "catalog.parameters",
+    "pk": 3,
+    "fields": {
+      "good": 2,
+      "name": "Color",
+      "value": "Green",
+      "cost": "500.00",
+      "sort_order": "ASC"
+    }
+  },
+  {
+    "model": "catalog.parameters",
+    "pk": 4,
+    "fields": {
+      "good": 2,
+      "name": "Color",
+      "value": "Yellow",
+      "cost": "600.00",
+      "sort_order": "ASC"
+    }
+  }
+]
